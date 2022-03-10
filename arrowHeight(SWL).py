@@ -1,48 +1,66 @@
-# def arrowHeight(num):
-#     for row in range(1,num):
-#         for col in range(0,num + 1):
-#             if row == col:
-#                 print("> ", end="")
-#             elif col < row:
-#                 print("\\ ", end="")
-#             elif col > row:
-#                 print("/ ", end="")
-#         print("\n")
+# Write a function (or small set of functions) that, given an integer, prints an
+# arrow of that height. Here are a few examples for differnt inputs:
+# Input is 1:
+# >
 #
-# arrowHeight(5)
+# Input is 2:
+# \
+# /
+#
+# Input is 3:
+# \
+#  >
+# /
+#
+# Input is 4:
+# \
+#  \
+#  /
+# /
+#
+# Input is 5:
+# \
+#  \
+#   >
+#  /
+# /
+# Please provide working code, in a language of your choice, to solve the above
+# problem.
 
+def arrow(n):
+    if n%2 == 0:
+        for i in range(0, n//2):
+            for j in range(0, i):
+                print(" ", end='')
+            print("\\")
 
-def print_arrow(n):
-    # for printing upper part
-    # of the arrow
-    for i in range(1, n):
+        for i in range(n//2, 0, -1):
+            for j in range(0, i-1):
+                print(" ", end='')
+            print("/")
+    else:
+        for i in range(0, n // 2):
+            for j in range(0, i):
+                print(" ", end='')
+            print("\\")
 
-        # To give space before printing
-        # stars in upper part of arrow
-        for j in range(0, i):
-            print(" ", end="")
+        for x in range(n // 2, -1, -1):
+            for y in range(0, x+1):
+                if y == n//2:
+                    print(">")
+                elif y == x:
+                    print('/')
+                else:
+                    print(" ", end='')
 
-        # To print stars in upper
-        # part of the arrow
-        for k in range(0, i):
-            print("\\", end="")
+arrow(1)
+print("separator for new arrow print")
+arrow(2)
+print("separator for new arrow print")
+arrow(3)
+print("separator for new arrow print")
+arrow(4)
+print("separator for new arrow print")
+arrow(5)
+print("separator for new arrow print")
 
-        print()
-
-    # for printing lower part
-    # of the arrow
-    for i in range(0, n):
-
-        # To give space before printing
-        # stars in lower part of arrow
-        for j in range(0, n - i):
-            print(" ", end="")
-
-        # To print stars in lower
-        # part of the arrow
-        for k in range(0, n - i):
-            print("/", end="")
-
-        print()
-
-print_arrow(5)
