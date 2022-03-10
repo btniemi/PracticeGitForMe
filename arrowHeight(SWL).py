@@ -30,25 +30,25 @@
 def arrow(n):
     # i chose to separate the 2 cases of even (n) given or odd (n) given and handle them separately
     if n%2 == 0:
-        # for printing upper part of arrow if n == even
-        for i in range(0, n//2): # I had the right process for splitting just not implemented quite right. The use of floor division helped
+        # for printing upper part of arrow if n == even number
+        for i in range(0, n//2): # I had the right process for splitting just not implemented quite right. The use of floor division helped to be midpoint of arrow
             for j in range(0, i):
-                print(" ", end='') #prints spaces up to where need the \ to be places
+                print(" ", end='') #prints spaces up to where need the \ to be places top side of arrow leading to midpoint
             print("\\")
         # for printing the lower part
-        for i in range(n//2, 0, -1): # this is like same loop above but just in reverse allows us to access peak at right point and go down from there ie other side of arrow
+        for i in range(n//2, 0, -1): # this is like same loop above but just in reverse allows us to access midpoint first and print right element /
             for j in range(0, i-1):
                 print(" ", end='')
             print("/")
     else:
-        # printing top part if n == odd
+        # printing top part if n == odd number
         for i in range(0, n // 2):
             for j in range(0, i):
                 print(" ", end='')
             print("\\")
         # printing botton part of arrow
-        for x in range(n // 2, -1, -1): # <-- iterates from n//2 to -1 one extra the amount of times to get bottom half example if n=5 then top have loops 2times and this bottom half loops 3
-            for y in range(0, x+1): # --> goes from 0 to how many times above loops for
+        for x in range(n // 2, -1, -1): # <-- starts at n//2 and loops down to -1 this gets us the amount of loops needed for odd number traversal;example if n=5 then top half loops 2 times and this bottom half loops 3
+            for y in range(0, x+1): # --> goes from 0 to plus one of x
                 if y == n//2:
                     print(">")
                 elif y == x:
