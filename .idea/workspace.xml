@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ffbb8b2-e29c-439a-abc9-07ce7bde0e2c" name="Default Changelist" comment="" />
+    <list default="true" id="3ffbb8b2-e29c-439a-abc9-07ce7bde0e2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/brokenCalc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PracticeGitForMe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PracticeGitForMe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhoneNumberParsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/PhoneNumberParsing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThisIsPlaceholder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ThisIsPlaceholder.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addNums.py" beforeDir="false" afterPath="$PROJECT_DIR$/addNums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addNumsTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/addNumsTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrowHeight(SWL).py" beforeDir="false" afterPath="$PROJECT_DIR$/arrowHeight(SWL).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coins.py" beforeDir="false" afterPath="$PROJECT_DIR$/coins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examplesToStudy.py" beforeDir="false" afterPath="$PROJECT_DIR$/examplesToStudy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/findIndexChange.py" beforeDir="false" afterPath="$PROJECT_DIR$/findIndexChange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loopsPractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/loopsPractice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorts.py" beforeDir="false" afterPath="$PROJECT_DIR$/sorts.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Python.coins">
+  <component name="RunManager" selected="Python.brokenCalc">
     <configuration name="PhoneNumberParsing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PracticeGitForMe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -41,6 +59,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\braedon.niemi\Documents\GitHub\PracticeGitForMe\PhoneNumberParsing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="brokenCalc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PracticeGitForMe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brokenCalc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,34 +151,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sorts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PracticeGitForMe" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorts.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.brokenCalc" />
         <item itemvalue="Python.coins" />
         <item itemvalue="Python.PhoneNumberParsing" />
         <item itemvalue="Python.loopsPractice" />
         <item itemvalue="Python.findIndexChange" />
-        <item itemvalue="Python.sorts" />
       </list>
     </recent_temporary>
   </component>
@@ -160,29 +178,33 @@
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1646587063315" />
     <state x="651" y="170" key="FileChooserDialogImpl/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647363560919" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1647971414967">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1648231716250">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/1920.0.1366.728@-1920.0.1920.1040" timestamp="1647971414967" />
     <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1646587064595" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1648231716250" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647364841545" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1647971414966">
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1648231716250">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/1920.0.1366.728@-1920.0.1920.1040" timestamp="1647971414966" />
     <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1646587064595" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1648231716250" />
     <state width="1899" height="348" key="GridCell.Tab.0.center/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647364841545" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1647971414966">
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1648231716250">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/1920.0.1366.728@-1920.0.1920.1040" timestamp="1647971414966" />
     <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1646587064595" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1648231716250" />
     <state width="1899" height="348" key="GridCell.Tab.0.left/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647364841545" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1647971414967">
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1648231716250">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/1920.0.1366.728@-1920.0.1920.1040" timestamp="1647971414967" />
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1646587064595" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1648231716250" />
     <state width="1899" height="348" key="GridCell.Tab.0.right/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647364841545" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1647971414968">
       <screen x="-1920" y="0" width="1920" height="1040" />
@@ -208,16 +230,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1366.728/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1647363404287" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/coins.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
